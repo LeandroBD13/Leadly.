@@ -47,7 +47,7 @@ export function Booking() {
                  ease: "linear" 
                }}
                style={{ transformStyle: "preserve-3d" }}
-               className="relative w-full max-w-[450px] aspect-[4/5] md:aspect-[3/4]"
+               className="relative w-full max-w-[450px] md:aspect-[3/4] min-h-[520px] md:min-h-0"
              >
                 {/* Outer Glass Window */}
                 <div className="absolute inset-0 bg-white/[0.03] border border-white/10 backdrop-blur-2xl rounded-[2.5rem] md:rounded-[3rem] shadow-2xl overflow-hidden">

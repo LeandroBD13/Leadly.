@@ -189,12 +189,18 @@ function HomePage({ phase, cameraAnim, cameraTrans, typedText }: any) {
           )}
         </div>
 
-        {phase === "hero" && <div className="flex items-center">
+        {phase === "hero" && <div className="flex items-center gap-3">
           <motion.button 
             onClick={scrollToBooking} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
-            className="px-4 py-2 md:px-8 md:py-4 bg-white text-black rounded-lg text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] hover:bg-white/90 transition-all shadow-[0_0_20px_rgba(255,255,255,0.5)]"
+            className="px-4 py-2 md:px-6 md:py-4 bg-white text-black rounded-lg text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] hover:bg-white/90 transition-all shadow-[0_0_20px_rgba(255,255,255,0.5)]"
           >
             Call us
+          </motion.button>
+          <motion.button 
+            onClick={scrollToBooking} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
+            className="hidden md:block px-6 py-4 bg-white/10 text-white border border-white/20 rounded-lg text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-white/20 transition-all backdrop-blur-md"
+          >
+            Email us
           </motion.button>
         </div>}
       </nav>
