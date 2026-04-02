@@ -9,7 +9,7 @@ export function LegalFooter() {
         </div>
         
         <div className="flex flex-col items-center gap-2">
-           <div className="uppercase tracking-[0.4em] font-black text-white/50">Leadly by Nadja Berger</div>
+           <div className="uppercase tracking-[0.4em] font-medium text-white/30">Driven by Nadja Berger</div>
            <div className="opacity-20 uppercase text-[8px]">© {new Date().getFullYear()} All rights reserved.</div>
         </div>
       </div>
